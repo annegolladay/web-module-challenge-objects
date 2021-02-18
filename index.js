@@ -16,7 +16,7 @@ The function should:
 */
 
 function createMenuItem(/*Your code here*/){
-    /*Your code here*/
+    /*Your code here*/  
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -43,12 +43,15 @@ Using the burger object below do the following:
 
   For example: burger.discount("teacher") would return 13.5 and burger.discount("public") would return 16.2
 */
-
+// Reference the const dog = with the sister part in the notes Codepen to do this problem!
 export const burger = {
   name: "Burger", 
   price: 18, 
   category: "Lunch", 
   /*Your code here*/
+  discount: function(string) {
+    // reference 2:04 in video with Brit
+  }
 }
 
 
@@ -69,7 +72,7 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
-
+// 2:06 in Brit video: grab this object, only Julius feedback, to the console...how do you do that?
 
 
 
@@ -78,7 +81,7 @@ Using the reviews array above do the following: (no function needed)
   1. Following the same format (name, rating, feedback), add a new fictitious review object to the reviews array
   2. log the whole array to the console, make sure the new review is inside of it   
 */
-
+// 2:06 add another object to the end of the array in Review MVP - how do you write an object at the end of the array? Think of an array method
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -86,6 +89,7 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   1. Add this feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
   2. log the reviews array to the console to check your work
 */
+// so target the feedback in the Reyna's object (Reviews?) and set the value to something...(back to the Notes, when we updated the region and here we are updating the feedback. )
 
 
 
@@ -100,7 +104,8 @@ Use the getReviewByIndex function below to do the following:
   3. The function should return the following string: "{name} gave the restaurant a {rating} star review, and their feedback was: {feedback}"
   For example: getReviewByIndex(reviews,0) would return: "Daniela gave the restaurant a 5 star review, and their feedback was: Beautiful atmosphere and wonderful vegan options!"
 */
-
+// 2:07:30 watch Brit video on this task (similar to yesterday's work?)
+// We want something at a specific index inside of an array...
 
 function getReviewByIndex(/*Your code here*/) {
   /*Your code here*/
@@ -119,7 +124,7 @@ Use the getLastReview function below to do the following:
   
   For example: getLastReview(reviews) would return: "Reyna gave the restaurant a 3.5 star review, and their feedback was: this place is chill with really cool people, great for getting work done on weekdays".
 */
-
+// How do we return the last item in an array?
 
 function getLastReview(/*Your code here*/) {
   /*Your code here*/
